@@ -10,6 +10,10 @@ let m = new Map();
 m.set([1, 2, 3], true);
 m.set([1, 2, 3], false);
 // {Array(3) => true, Array(3) => false}
+/*
+  0: {Array(3) => true}
+  1: {Array(3) => false}
+*/
 
 
 // Write a function called hasDuplicate which accepts an array and returns true or false if that array contains a duplicate
